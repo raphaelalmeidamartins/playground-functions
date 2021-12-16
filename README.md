@@ -111,6 +111,61 @@ Entradas da função:
   </li>
 </ol>
 
+### Bônus
+<ol star="11">
+  <li>Crie uma função de Número de Telefone
+    <p>Crie uma função chamada `generatePhoneNumber` que receba uma array com 11 números e retorne um número de telefone, respeitando parênteses, traços e espaços.</p>
+    <p>Exemplo: caso o parâmetro da função seja [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1], `generatePhoneNumber` deverá retornar `(12) 34567-8901`.</p>
+      <ul>
+        <li>Se a função receber um array com tamanho diferente de 11, a mesma deve retornar `"Array com tamanho incorreto."`.</li>
+        <li>Caso algum dos números da array seja menor que 0, maior que 9 ou se repita 3 vezes ou mais, `generatePhoneNumber` deverá retornar a string `"não é possível gerar um número de telefone com esses valores"`.</li>
+      </ul>
+  </li>
+  <li>Crie uma função de Condição de existência de um triângulo
+    <p>Um triângulo é composto de três linhas: `lineA`, `lineB` e `lineC`. Crie uma função chamada `triangleCheck` que deverá receber as três linhas como parâmetro e retornar se é possível formar um triângulo com os valores apresentados de cada linha.</p>
+    <p>Para tanto, tenha em mente algumas considerações:</p>
+      <ul>
+        <li>Para que seja possível formar um triângulo, é necessário que a medida de qualquer um dos lados seja menor que a soma das medidas dos outros dois e maior que o valor absoluto da diferença entre essas medidas.</li>
+        <li>Para obter o valor absoluto de um número em JavaScript, pesquise pela função `Math.abs`.</li>
+        <li>O retorno da sua função deverá ser um booleano.
+          <p>Exemplo: o retorno de `triangleCheck(10, 14, 8)` deverá ser `true`.</p>
+        </li>
+      </ul>
+  </li>
+  <li>Crie uma função de boas vindas ao Bar da Trybe!
+  Segundo as regras desse bar, a cada bebida deve-se beber um copo de água para que não se tenha ressaca.
+<p>Crie a função `hydrate` que recebe uma string, e retorne a sugestão de quantos copos de água você deve beber. Exemplos:</p>
+
+```
+String recebida:
+  "1 cerveja"
+String retornada:
+  "1 copo de água"
+```
+
+```
+String recebida:
+  "1 cachaça, 5 cervejas e 1 copo de vinho"
+String retornada:
+  "7 copos de água"
+```
+
+```
+String recebida:
+  "1 cachaça, 5 cervejas e 1 copo de vinho"
+String retornada:
+  "7 copos de água"
+```
+    
+  <h4>Notas</h4>
+  <ul>
+    <p>Para simplificar, consideraremos que qualquer coisa com um número à frente é uma bebida **e que a sua string sempre virá com o formato quantidade (em número) + tipo da bebida**.</p>
+    <p>O número na frente de cada bebida está no intervalo entre 1 e 9.    </p>
+  </ul>
+  <p>**Dica:** pesquise por algo similar a `get all integers inside a string js`.</p>
+  </li>
+</ol>
+
 <h2 id="en">:us: English</h2>
 <p>JavaScript project develop by me (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) in the end of the Unit 4 Module 1 of the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. I was approved with 100% of the mandatory and optional requirements met, and following all the Linter rules of best practices and code standardization.</p>
 <p>We had to solve programming logic challenges by using functions.</p>
