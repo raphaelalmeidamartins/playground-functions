@@ -104,7 +104,7 @@ function fizzBuzz(arrayNumbers) {
 // Desafio 9
 // Luá me ajudou a entender porque o objeto deixaria o código menos complexo. Antes eu estaba utilizando switch-case.
 function encode(string) {
-  let arrayStringSplited = string.split('');
+  let arrayStringSplit = string.split('');
   let vowelsNumbers = {
     a: '1',
     e: '2',
@@ -112,15 +112,15 @@ function encode(string) {
     o: '4',
     u: '5',
   };
-  for (let i = 0; i < arrayStringSplited.length; i += 1) {
-    if (vowelsNumbers[arrayStringSplited[i]]) {
-      arrayStringSplited[i] = vowelsNumbers[arrayStringSplited[i]];
+  for (let i = 0; i < arrayStringSplit.length; i += 1) {
+    if (vowelsNumbers[arrayStringSplit[i]]) {
+      arrayStringSplit[i] = vowelsNumbers[arrayStringSplit[i]];
     }
   }
-  return arrayStringSplited.join('');
+  return arrayStringSplit.join('');
 }
 function decode(string) {
-  let arrayStringSplited = string.split('');
+  let arrayStringSplit = string.split('');
   let numbersVowels = {
     1: 'a',
     2: 'e',
@@ -128,12 +128,12 @@ function decode(string) {
     4: 'o',
     5: 'u',
   };
-  for (let i = 0; i < arrayStringSplited.length; i += 1) {
-    if (numbersVowels[arrayStringSplited[i]]) {
-      arrayStringSplited[i] = numbersVowels[arrayStringSplited[i]];
+  for (let i = 0; i < arrayStringSplit.length; i += 1) {
+    if (numbersVowels[arrayStringSplit[i]]) {
+      arrayStringSplit[i] = numbersVowels[arrayStringSplit[i]];
     }
   }
-  return arrayStringSplited.join('');
+  return arrayStringSplit.join('');
 }
 
 module.exports = {
