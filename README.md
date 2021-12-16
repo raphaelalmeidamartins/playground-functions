@@ -5,6 +5,8 @@
 <p id="pt">Projeto de JavaScript desenvolvido por mim (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) ao final do Bloco 4 do Módulo 1 do curso de Desenvolvimento Web da <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. Obtive aprovação com 100% dos requisitos obrigatórios e opcionais atingidos, e seguindo as todas as regras de padronização do código e boas práticas do Linter.</p>
 <p>O projeto consistiu em uma série de desafios de lógica de programação utilizando funções.</p>
 
+![Minha nota no projeto - My grade of the project](./nota.png)
+
 ### Requisitos
 <ol>
   <li>Crie uma função usando o operador &&
@@ -171,6 +173,8 @@ String retornada:
 <h2 id="en">:us: English</h2>
 <p>JavaScript project develop by me (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) in the end of the Unit 4 Module 1 of the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. I was approved with 100% of the mandatory and optional requirements met, and following all the Linter rules of best practices and code standardization.</p>
 <p>We had to solve programming logic challenges by using functions.</p>
+
+![My grade of the project - Minha nota no projeto](./nota.png)
 
 ### Requirements
 <ol>
