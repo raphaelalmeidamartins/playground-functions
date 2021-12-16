@@ -112,7 +112,7 @@ Entradas da função:
 </ol>
 
 ### Bônus
-<ol star="11">
+<ol start="11">
   <li>Crie uma função de Número de Telefone
     <p>Crie uma função chamada `generatePhoneNumber` que receba uma array com 11 números e retorne um número de telefone, respeitando parênteses, traços e espaços.</p>
     <p>Exemplo: caso o parâmetro da função seja [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1], `generatePhoneNumber` deverá retornar `(12) 34567-8901`.</p>
