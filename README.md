@@ -159,10 +159,10 @@ String retornada:
     
   <h4>Notas</h4>
   <ul>
-    <p>Para simplificar, consideraremos que qualquer coisa com um número à frente é uma bebida **e que a sua string sempre virá com o formato quantidade (em número) + tipo da bebida**.</p>
-    <p>O número na frente de cada bebida está no intervalo entre 1 e 9.    </p>
+    <li>Para simplificar, consideraremos que qualquer coisa com um número à frente é uma bebida <strong>e que a sua string sempre virá com o formato quantidade (em número) + tipo da bebida.</strong></li>
+    <li>O número na frente de cada bebida está no intervalo entre 1 e 9.</li>
   </ul>
-  <p>**Dica:** pesquise por algo similar a `get all integers inside a string js`.</p>
+  <p><strong>Dica:</strong> pesquise por algo similar a `get all integers inside a string js`.</p>
   </li>
 </ol>
 
