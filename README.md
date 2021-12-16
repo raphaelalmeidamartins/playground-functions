@@ -174,7 +174,7 @@ String retornada:
 
 ### Requirements
 <ol>
-  <li>Create a function using the && operator
+  <li>Create a function using the <code>&&</code> operator
     <p>JavaScript has a logic operator <code>&&</code> that receives two values, returns <code>true</code> if both of them are true, and <code>false</code> if one of them it's not.</p>
     <p>Knowing that, insert a code in the function <code>compareTrue</code> so if it receives two boolean parameters, it should:</p>
     <ul>
@@ -279,55 +279,54 @@ Parameters of the function:
 
 ### Bonus
 <ol start="11">
-  <li>Crie uma função de Número de Telefone
-    <p>Crie uma função chamada `generatePhoneNumber` que receba uma array com 11 números e retorne um número de telefone, respeitando parênteses, traços e espaços.</p>
-    <p>Exemplo: caso o parâmetro da função seja [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1], `generatePhoneNumber` deverá retornar `(12) 34567-8901`.</p>
+  <li>Create a Phone Number function
+    <p>Write a function named <code>generatePhoneNumber</code> that receives an array with 11 numbers and returns a phone number with parentheses, dashe and spaces.</p>
+    <p>Example: if the given array is <code>[1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]</code>, <code>generatePhoneNumber</code> should return <code>(12) 34567-8901</code>.</p>
       <ul>
-        <li>Se a função receber um array com tamanho diferente de 11, a mesma deve retornar `"Array com tamanho incorreto."`.</li>
-        <li>Caso algum dos números da array seja menor que 0, maior que 9 ou se repita 3 vezes ou mais, `generatePhoneNumber` deverá retornar a string `"não é possível gerar um número de telefone com esses valores"`.</li>
+        <li>If the length of the given array is different than 11, the function should return `"Array com tamanho incorreto."`.</li>
+        <li>If some number of the array is lower than 0, higher than 9 and repeats three times or more, <code>generatePhoneNumber</code> should return the string <code>"não é possível gerar um número de telefone com esses valores"</code> ("it's not possible to generate a phone number with these values").</li>
       </ul>
   </li>
-  <li>Crie uma função de Condição de existência de um triângulo
-    <p>Um triângulo é composto de três linhas: `lineA`, `lineB` e `lineC`. Crie uma função chamada `triangleCheck` que deverá receber as três linhas como parâmetro e retornar se é possível formar um triângulo com os valores apresentados de cada linha.</p>
-    <p>Para tanto, tenha em mente algumas considerações:</p>
+  <li>Create a function to verify if a triangle is valid
+    <p>A triangle has three lines: <code>lineA</code>, <code>lineB</code> e <code>lineC</code>. Write a function named <code>triangleCheck</code> that receives the lines as parameters and returns if it's possible to make a triangle with their values.</p>
+    <p>Consider the following pieces of information:</p>
       <ul>
-        <li>Para que seja possível formar um triângulo, é necessário que a medida de qualquer um dos lados seja menor que a soma das medidas dos outros dois e maior que o valor absoluto da diferença entre essas medidas.</li>
-        <li>Para obter o valor absoluto de um número em JavaScript, pesquise pela função `Math.abs`.</li>
-        <li>O retorno da sua função deverá ser um booleano.
-          <p>Exemplo: o retorno de `triangleCheck(10, 14, 8)` deverá ser `true`.</p>
+        <li>To be possible to make a triangle, the length of any line should be lower than the sum of the other ones and higher than the absolute value of the difference between their lengths.</li>
+        <li>To obtain the absolute value of a number in JavaScript, search for the function <code>Math.abs</code>.</li>
+        <li>Your function should return a boolean value.
+          <p>Example: <code>triangleCheck(10, 14, 8)</code> should return <code>true</code>.</p>
         </li>
       </ul>
   </li>
-  <li>Crie uma função de boas vindas ao Bar da Trybe!
-  Segundo as regras desse bar, a cada bebida deve-se beber um copo de água para que não se tenha ressaca.
-<p>Crie a função `hydrate` que recebe uma string, e retorne a sugestão de quantos copos de água você deve beber. Exemplos:</p>
+  <li>Create a welcome function of the Trybe's pub! According to the rules of the pub, for each cup of alcoholic drink, the person needs to drink a cup of water to avoid hangover.
+<p>Write a function named <code>hydrate</code> that receives a string, and returns how many cups of water the person needs to drink. Examples:</p>
 
 ```
-String recebida:
+Given string:
   "1 cerveja"
-String retornada:
+Returned string:
   "1 copo de água"
 ```
 
 ```
-String recebida:
+Given string:
   "1 cachaça, 5 cervejas e 1 copo de vinho"
-String retornada:
+Returned string:
   "7 copos de água"
 ```
 
 ```
-String recebida:
+Given string:
   "1 cachaça, 5 cervejas e 1 copo de vinho"
-String retornada:
+Returned string:
   "7 copos de água"
 ```
     
-  <h4>Notas</h4>
+  <h4>Notes</h4>
   <ul>
-    <li>Para simplificar, consideraremos que qualquer coisa com um número à frente é uma bebida <strong>e que a sua string sempre virá com o formato quantidade (em número) + tipo da bebida.</strong></li>
-    <li>O número na frente de cada bebida está no intervalo entre 1 e 9.</li>
+    <li>To simplify, let's consider anything with a number in the begining as a drink <strong>and that the string will always be provided with the template "how many cups (in numbers) + type of drink".</strong></li>
+    <li>The number in the begining of each drink is a number from 1 to 9.</li>
   </ul>
-  <p><strong>Dica:</strong> pesquise por algo similar a `get all integers inside a string js`.</p>
+  <p><strong>Hint:</strong> search for something like <code>get all integers inside a string js</code>.</p>
   </li>
 </ol>
