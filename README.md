@@ -8,7 +8,7 @@
 ### Requisitos
 <ol>
   <li>Crie uma função usando o operador &&
-    <p>JavaScript possui um operador lógico <code>&&</code>, o qual recebe dois valores e retorna <code>true</code> se ambos os valores são verdadeiros, e retorna `false` se algum dos valores não o for.</p>
+    <p>JavaScript possui um operador lógico <code>&&</code>, o qual recebe dois valores e retorna <code>true</code> se ambos os valores são verdadeiros, e retorna `false` se algum deles não o for.</p>
     <p>Considerando isso, implemente na função <code>compareTrue</code>, um código que ao receber dois parâmetros booleanos deve:</p>
     <ul>
       <li>Retornar <code>true</code> se ambos os valores forem verdadeiros;</li>
@@ -36,7 +36,7 @@
     <p>Exemplo: caso o parâmetro de <code>highestCount</code> seja uma array com valores <code>[9, 1, 2, 3, 9, 5, 7]</code>, a função deverá retornar <code>2</code>, que é a quantidade de vezes que o número <code>9</code> (maior número do array) se repete.</p>
   </li>
   <li>Crie uma função de Caça ao Rato
-    <p>Imagine que existem dois gatos, os quais chamaremos de <code>cat1</code> e <code>cat2</code>, e que ambos estão caçando um mesmo rato chamado <code>mouse</code>. Imagine que os animais estão em uma reta, cada um em uma posição representada por um número.</p>
+    <p>Imagine que existem dois gatos, os quais chamaremos <code>cat1</code> e <code>cat2</code>, e que ambos estão caçando um mesmo rato chamado <code>mouse</code>. Imagine que os animais estão em uma reta, cada um em uma posição representada por um número.</p>
     <p>Sabendo disso, crie uma função chamada <code>catAndMouse</code> que, ao receber a posição de <code>mouse</code>, <code>cat1</code> e <code>cat2</code>, <strong>nessa ordem</strong>, calcule as distâncias entre o rato e cada um dos gatos, em seguida, retorne qual dos felinos irá alcançar o rato primeiro (aquele que estiver mais perto do rato).</p>
     <p>Exemplo: caso o gato <code>cat2</code> esteja a 2 unidades de distância do rato, e <code>cat1</code> esteja a 3 unidades, sua função deverá retornar <code>"cat2"</code>.</p>
     <p>Caso os gatos estejam na mesma distância do rato, a função deverá retornar a string <code>"os gatos trombam e o rato foge"</code>.</p>
@@ -52,7 +52,7 @@
     <p>Exemplo: caso o parâmetro seja <code>[2, 15, 7, 9, 45]</code>, sua função deverá retornar <code>["bug!", "fizzBuzz", "bug!", "fizz", "fizzBuzz"]</code>.</p>
   </li>
   <li>Crie uma função que Codifique e Decodifique
-    <p>Crie duas funções: a primeira deverá se chamar <code>encode</code> e, ao receber uma string como parâmetro, deverá trocar todas as vogais minúsculas por números, de acordo com o formato a seguir:</p>
+    <p>Crie duas funções: a primeira deverá se chamar <code>encode</code> e, ao receber uma string como parâmetro, deverá trocar todas as vogais minúsculas por números, conforme o formato a seguir:</p>
       a -> 1 \
       e -> 2 \
       i -> 3 \
@@ -61,7 +61,7 @@
     <p>Ou seja, caso o parâmetro de <code>encode</code> seja <code>"hi there!"</code>, o retorno deverá ser <code>"h3 th2r2!"</code>.</p>
     <p>A segunda função deverá se chamar <code>decode</code> e faz o contrário de <code>encode</code> - ou seja, recebe uma string contendo números no lugar de letras minúsculas e retornará uma string com vogais minúsculas no lugar dos números (então, caso o parâmetro de <code>decode</code> seja <code>"h3 th2r2!"</code>, o retorno deverá ser <code>"hi there!"</code>).</p>
   </li>
-  <li>Crie uma função de Lista de Tecnologias
+  <li>Crie uma função de Lista de Tecnologias contendo
   tecnologias que você quer aprender. Essa função deve receber também um segundo parâmetro chamado <code>name</code> com um nome.
   <p>Para cada tecnologia no array, crie um objeto com a seguinte estrutura:</p>
 
@@ -126,14 +126,14 @@ Entradas da função:
     <p>Um triângulo é composto de três linhas: <code>lineA</code>, <code>lineB</code> e <code>lineC</code>. Crie uma função chamada <code>triangleCheck</code> que deverá receber as três linhas como parâmetro e retornar se é possível formar um triângulo com os valores apresentados de cada linha.</p>
     <p>Para tanto, tenha em mente algumas considerações:</p>
       <ul>
-        <li>Para que seja possível formar um triângulo, é necessário que a medida de qualquer um dos lados seja menor que a soma das medidas dos outros dois e maior que o valor absoluto da diferença entre essas medidas.</li>
+        <li>Para ser possível formar um triângulo, a medida de qualquer um dos lados deve ser menor que a soma das medidas dos outros dois e maior que o valor absoluto da diferença entre essas medidas.</li>
         <li>Para obter o valor absoluto de um número em JavaScript, pesquise pela função <code>Math.abs</code>.</li>
         <li>O retorno da sua função deverá ser um booleano.
           <p>Exemplo: o retorno de <code>triangleCheck(10, 14, 8)</code> deverá ser <code>true</code>.</p>
         </li>
       </ul>
   </li>
-  <li>Crie uma função de boas vindas ao Bar da Trybe!
+  <li>Crie uma função de Boas-vindas ao Bar da Trybe!
   Segundo as regras desse bar, a cada bebida deve-se beber um copo de água para que não se tenha ressaca.
 <p>Crie a função <code>hydrate</code> que recebe uma string, e retorne a sugestão de quantos copos de água você deve beber. Exemplos:</p>
 
@@ -186,7 +186,7 @@ String retornada:
     <p>Develop a function named <code>calcArea</code>, it should receive the values <code>base</code>, and <code>height</code> of a triangle as parameters, and return its area.</p>
     <p>Remember the formula: area of a triangle = (base * height) / 2.</p>
   </li>
-  <li>Create a function that slipt a sentence
+  <li>Create a function that split a sentence
     <p>Create the function <code>splitSentence</code> that receives a string and returns an array of strings split in every space on the original string.</p>
     <p>Example: if the function receives the string <code>"go Trybe"</code>, it should return <code>['go', 'Trybe']</code>.</p>
   </li>
@@ -199,13 +199,13 @@ String retornada:
   </li>
   <li>Create a function that calculates how many times the highest number repeats in a given array
     <p>Write a function named <code>highestCount</code> that receives an array of numbers, and returns how many times the highest number repeats itself in the array.</p>
-    <p>Example: if the given parameters is <code>[9, 1, 2, 3, 9, 5, 7]</code>, the function should return <code>2</code>, that is the number of times the number <code>9</code> (the highest number in the array) repeats itself.</p>
+    <p>Example: if the given parameter is <code>[9, 1, 2, 3, 9, 5, 7]</code>, the function should return <code>2</code>, that is the number of times the number <code>9</code> (the highest number in the array) repeats itself.</p>
   </li>
   <li>Create a mouse hunt function
     <p>Imagine that there are two cats named <code>cat1</code> and <code>cat2</code>, and both are hunting the same mouse named <code>mouse</code>. All the animals are on a straight line represented by a number.</p>
-    <p>Knowing that, write a function named <code>catAndMouse</code> that receives the postion of <code>mouse</code>, <code>cat1</code> and <code>cat2</code>, <strong>in this respective order</strong>, calculates the distance between the mouse and each cat, and returns what cat is going to be able to reach the mouse first (the one closer to the mouse).</p>
+    <p>Knowing that, write a function named <code>catAndMouse</code> that receives the position of <code>mouse</code>, <code>cat1</code> and <code>cat2</code>, <strong>in this respective order</strong>, calculates the distance between the mouse and each cat, and returns what cat is going to be able to reach the mouse first (the one closer to the mouse).</p>
     <p>Example: if the <code>cat2</code> is 2 units away from the mouse, and the <code>cat1</code> is 3 units, your function should return <code>"cat2"</code>.</p>
-    <p>If both cats are away in the same distance from the mouse, the function should return the string <code>"os gatos trombam e o rato foge"</code> ("the cats crashed and the mouse ran away").</p>
+    <p>If both cats are away in the same distance from the mouse, the function should return the string <code>"os gatos trombam e o rato foge"</code> ("the cats crashed, and the mouse ran away").</p>
   </li>
   <li>Create a function FizzBuzz
     <p>Write a function named <code>fizzBuzz</code> that receives an array of numbers and return another array following the criteria below:</p>
@@ -218,14 +218,14 @@ String retornada:
     <p>Example: if the given array is <code>[2, 15, 7, 9, 45]</code>, your function should return <code>["bug!", "fizzBuzz", "bug!", "fizz", "fizzBuzz"]</code>.</p>
   </li>
   <li>Create encode and decode functions
-    <p>Write two functions: the first one named <code>encode</code> that receives a lower case string as parameter and returns the same string, but with all vowels repleaced by numbers. Following the values below:</p>
+    <p>Write two functions: the first one named <code>encode</code> that receives a lower case string as parameter and returns the same string, but with all vowels replaced by numbers. Following the values below:</p>
       a -> 1 \
       e -> 2 \
       i -> 3 \
       o -> 4 \
       u -> 5
     <p>That means, if the given string is <code>"hi there!"</code>, the function <code>encode</code> should return <code>"h3 th2r2!"</code>.</p>
-    <p>the second function should be named <code>decode</code> and do the opposite of <code>encode</code> - that means, if it receives a lower case string it should replace numbers with the corresponding vowels (so, if the given string is <code>"h3 th2r2!"</code>, <code>decode</code> should return <code>"hi there!"</code>).</p>
+    <p>The second function should be named <code>decode</code> and do the opposite of <code>encode</code> - that means, if it receives a lower case string it should replace numbers with the corresponding vowels (so, if the given string is <code>"h3 th2r2!"</code>, <code>decode</code> should return <code>"hi there!"</code>).</p>
   </li>
   <li>Create a function of technologies you want to learn. It should also receive a second parameter <code>name</code> with a name.
   <p>For each technology in the array, create an object with the following structure:</p>
@@ -237,7 +237,7 @@ String retornada:
 }
 ```
 
-  <p>Theses objects should be inserted in another array in ascending order sorted by their <code>tech</code> key.</p>
+  <p>These objects should be inserted in another array in ascending order, sorted by their <code>tech</code> key.</p>
   <p>The output of your function should be an array of objects.</p>
 
 Example:
@@ -280,10 +280,10 @@ Parameters of the function:
 ### Bonus
 <ol start="11">
   <li>Create a Phone Number function
-    <p>Write a function named <code>generatePhoneNumber</code> that receives an array with 11 numbers and returns a phone number with parentheses, dashe and spaces.</p>
+    <p>Write a function named <code>generatePhoneNumber</code> that receives an array with 11 numbers and returns a phone number with parentheses, dash and spaces.</p>
     <p>Example: if the given array is <code>[1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]</code>, <code>generatePhoneNumber</code> should return <code>(12) 34567-8901</code>.</p>
       <ul>
-        <li>If the length of the given array is different than 11, the function should return `"Array com tamanho incorreto."`.</li>
+        <li>If the length of the given array is different from 11, the function should return <code>"Array com tamanho incorreto."</code> ("Array with incorrect length").</li>
         <li>If some number of the array is lower than 0, higher than 9 and repeats three times or more, <code>generatePhoneNumber</code> should return the string <code>"não é possível gerar um número de telefone com esses valores"</code> ("it's not possible to generate a phone number with these values").</li>
       </ul>
   </li>
@@ -324,8 +324,8 @@ Returned string:
     
   <h4>Notes</h4>
   <ul>
-    <li>To simplify, let's consider anything with a number in the begining as a drink <strong>and that the string will always be provided with the template "how many cups (in numbers) + type of drink".</strong></li>
-    <li>The number in the begining of each drink is a number from 1 to 9.</li>
+    <li>To simplify, let's consider anything with a number in the beginning as a drink <strong>and that the string will always be provided with the template "how many cups (in numbers) + type of drink".</strong></li>
+    <li>The number in the beginning of each drink is a number from 1 to 9.</li>
   </ul>
   <p><strong>Hint:</strong> search for something like <code>get all integers inside a string js</code>.</p>
   </li>
