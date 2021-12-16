@@ -29,6 +29,7 @@
   </li>
   <li>Crie uma função que calcule a quantidade de pontos no futebol
     <p>Escreva uma função com o nome `footballPoints` que receba o número de vitórias (esse parâmetro deverá se chamar `wins`) e o número de empates (esse parâmetro deverá se chamar `ties`) e retorne a quantidade de pontos que o time marcou em um campeonato.</p>
+    <p>Para tanto, considere que cada vitória vale 3 pontos e cada empate vale 1 ponto.</p>
   </li>
   <li>Crie uma função que calcule a repetição do maior número
     <p>Escreva uma função chamada `highestCount` que, ao receber uma array de números, retorne a quantidade de vezes que o maior deles se repete.</p>
@@ -36,7 +37,7 @@
   </li>
   <li>Crie uma função de Caça ao Rato
     <p>Imagine que existem dois gatos, os quais chamaremos de `cat1` e `cat2`, e que ambos estão caçando um mesmo rato chamado `mouse`. Imagine que os animais estão em uma reta, cada um em uma posição representada por um número.</p>
-    <p>Sabendo disso, crie uma função chamada `catAndMouse` que, ao receber a posição de `mouse`, `cat1` e `cat2`, **nessa ordem**, calcule as distâncias entre o rato e cada um dos gatos, em seguida, retorne qual dos felinos irá alcançar o rato primeiro (aquele que estiver mais perto do rato).</p>
+    <p>Sabendo disso, crie uma função chamada `catAndMouse` que, ao receber a posição de `mouse`, `cat1` e `cat2`, <strong>nessa ordem</strong>, calcule as distâncias entre o rato e cada um dos gatos, em seguida, retorne qual dos felinos irá alcançar o rato primeiro (aquele que estiver mais perto do rato).</p>
     <p>Exemplo: caso o gato `cat2` esteja a 2 unidades de distância do rato, e `cat1` esteja a 3 unidades, sua função deverá retornar `"cat2"`.</p>
     <p>Caso os gatos estejam na mesma distância do rato, a função deverá retornar a string `"os gatos trombam e o rato foge"`.</p>
   </li>
@@ -165,7 +166,168 @@ String retornada:
   <p><strong>Dica:</strong> pesquise por algo similar a `get all integers inside a string js`.</p>
   </li>
 </ol>
+<br>
 
 <h2 id="en">:us: English</h2>
 <p>JavaScript project develop by me (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) in the end of the Unit 4 Module 1 of the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. I was approved with 100% of the mandatory and optional requirements met, and following all the Linter rules of best practices and code standardization.</p>
 <p>We had to solve programming logic challenges by using functions.</p>
+
+### Requirements
+<ol>
+  <li>Create a function using the && operator
+    <p>JavaScript has a logic operator `&&` that receives two values, returns `true` if both of them are true, and `false` if one of them it's not.</p>
+    <p>Knowing that, insert a code in the function `compareTrue` so if it receives two boolean parameters, it should:</p>
+    <ul>
+      <li>Return `true` if both values are true;</li>
+      <li>Return `false` if one of them or both are false.</li>
+    </ul>
+  </li>
+  <li>Write a function that calculates the area of a triangle
+    <p>Develop a function named `calcArea`, it should receive the values `base`, and `height` of a triangle as parameters, and return its area.</p>
+    <p>Remember the formula: area of a triangle = (base * height) / 2.</p>
+  </li>
+  <li>Create a function that slipt a sentence
+    <p>Create the function `splitSentence` that receives a string and returns an array of strings split in every space on the original string.</p>
+    <p>Example: if the function receives the string `"go Trybe"`, it should return `['go', 'Trybe']`.</p>
+  </li>
+  <li>Create a function that uses strings concatenation
+    <p>Write a function named `concatName` that receives an array of strings, and returns a string following the template: `'LAST ITEM, FIRST ITEM'`, no matter the length of the array.</p>
+    <p>That means, if the given parameter is ['Lucas', 'Cassiano', 'Ferraz', 'Paolillo'], the function should return `Paolillo, Lucas`.</p>
+  </li>
+  <li>Create a function that calculates the scores of a football tournament
+    <p>Write a function named `footballPoints` that receives the number of `wins` and `ties`. It should return how many scores the team got in the tournament. Consider that each win is worth 3 scores and each tie is worth 1 score.</p> 
+  </li>
+  <li>Create a function that calculates how many times the highest number repeats in a given array
+    <p>Write a function named `highestCount` that receives an array of numbers, and returns how many times the highest number repeats itself in the array.</p>
+    <p>Example: if the given parameters is `[9, 1, 2, 3, 9, 5, 7]`, the function should return `2`, that is the number of times the number `9` (the highest number in the array) repeats itself.</p>
+  </li>
+  <li>Create a mouse hunt function
+    <p>Imagine that there are two cats named `cat1` and `cat2`, and both are hunting the same mouse named `mouse`. All the animals are on a straight line represented by a number.</p>
+    <p>Knowing that, write a function named `catAndMouse` that receives the postion of `mouse`, `cat1` and `cat2`, <strong>in this respective order</strong>, calculates the distance between the mouse and each cat, and returns what cat is going to be able to reach the mouse first (the one closer to the mouse).</p>
+    <p>Example: if the `cat2` is 2 units away from the mouse, and the `cat1` is 3 units, your function should return `"cat2"`.</p>
+    <p>If both cats are away in the same distance from the mouse, the function should return the string `"os gatos trombam e o rato foge" ("the cats crashed and the mouse ran away")`.</p>
+  </li>
+  <li>Create a function FizzBuzz
+    <p>Write a function named `fizzBuzz` that receives an array of numbers and return another array following the criteria below:</p>
+    <ul>
+      <li>For each number of the original array that is divisible only by 3, the new array should have the string `"fizz"`;</li>
+      <li>For each number of the original array that is divisible only by 5, the new array should have the string `"buzz"`;</li>
+      <li>If the number is divisible by both 3 and 5, the new array should have the string `"fizzBuzz"`;</li>
+      <li>If the number isn't divisible by 3 or 5, the new array should have the string `"bug!"`;</li>
+    </ul>
+    <p>Example: if the given array is [2, 15, 7, 9, 45], your function should return `["bug!", "fizzBuzz", "bug!", "fizz", "fizzBuzz"]`.</p>
+  </li>
+  <li>Create encode and decode functions
+    <p>Write two functions: the first one named `encode` that receives a lower case string as parameter and returns the same string, but with all vowels repleaced by numbers. Following the values below:</p>
+      a -> 1 \
+      e -> 2 \
+      i -> 3 \
+      o -> 4 \
+      u -> 5
+    <p>That means, if the given string is `"hi there!"`, the function `encode` should return `"h3 th2r2!"`.</p>
+    <p>the second function should be named `decode` and do the opposite of `encode` - that means, if it receives a lower case string it should replace numbers with the corresponding vowels (so, if the given string is `"h3 th2r2!"`, `decode` should return `"hi there!"`).</p>
+  </li>
+  <li>Create a function of technologies you want to learn. It should also receive a second parameter `name` with a name.
+  <p>For each technology in the array, create an object with the following structure:</p>
+
+```
+{
+  tech: "NomeTech",
+  name: name
+}
+```
+
+  <p>Theses objects should be inserted in another array in ascending order sorted by their `tech` key.</p>
+  <p>The output of your function should be an array of objects.</p>
+
+Example:
+```
+Parameters of the function:
+
+["React", "Jest", "HTML", "CSS", "JavaScript"]
+"Lucas"
+
+// Output:
+
+[
+  {
+    tech: "CSS",
+    name: "Lucas"
+  },
+  {
+    tech: "HTML",
+    name: "Lucas"
+  },
+  {
+    tech: "JavaScript",
+    name: "Lucas"
+  },
+  {
+    tech: "Jest",
+    name: "Lucas"
+  },
+  {
+    tech: "React",
+    name: "Lucas"
+  }
+]
+```
+
+  <p>If the given array is empty, your function should return 'Vazio!' ('Empty').</p>
+  </li>
+</ol>
+
+### Bonus
+<ol start="11">
+  <li>Crie uma função de Número de Telefone
+    <p>Crie uma função chamada `generatePhoneNumber` que receba uma array com 11 números e retorne um número de telefone, respeitando parênteses, traços e espaços.</p>
+    <p>Exemplo: caso o parâmetro da função seja [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1], `generatePhoneNumber` deverá retornar `(12) 34567-8901`.</p>
+      <ul>
+        <li>Se a função receber um array com tamanho diferente de 11, a mesma deve retornar `"Array com tamanho incorreto."`.</li>
+        <li>Caso algum dos números da array seja menor que 0, maior que 9 ou se repita 3 vezes ou mais, `generatePhoneNumber` deverá retornar a string `"não é possível gerar um número de telefone com esses valores"`.</li>
+      </ul>
+  </li>
+  <li>Crie uma função de Condição de existência de um triângulo
+    <p>Um triângulo é composto de três linhas: `lineA`, `lineB` e `lineC`. Crie uma função chamada `triangleCheck` que deverá receber as três linhas como parâmetro e retornar se é possível formar um triângulo com os valores apresentados de cada linha.</p>
+    <p>Para tanto, tenha em mente algumas considerações:</p>
+      <ul>
+        <li>Para que seja possível formar um triângulo, é necessário que a medida de qualquer um dos lados seja menor que a soma das medidas dos outros dois e maior que o valor absoluto da diferença entre essas medidas.</li>
+        <li>Para obter o valor absoluto de um número em JavaScript, pesquise pela função `Math.abs`.</li>
+        <li>O retorno da sua função deverá ser um booleano.
+          <p>Exemplo: o retorno de `triangleCheck(10, 14, 8)` deverá ser `true`.</p>
+        </li>
+      </ul>
+  </li>
+  <li>Crie uma função de boas vindas ao Bar da Trybe!
+  Segundo as regras desse bar, a cada bebida deve-se beber um copo de água para que não se tenha ressaca.
+<p>Crie a função `hydrate` que recebe uma string, e retorne a sugestão de quantos copos de água você deve beber. Exemplos:</p>
+
+```
+String recebida:
+  "1 cerveja"
+String retornada:
+  "1 copo de água"
+```
+
+```
+String recebida:
+  "1 cachaça, 5 cervejas e 1 copo de vinho"
+String retornada:
+  "7 copos de água"
+```
+
+```
+String recebida:
+  "1 cachaça, 5 cervejas e 1 copo de vinho"
+String retornada:
+  "7 copos de água"
+```
+    
+  <h4>Notas</h4>
+  <ul>
+    <li>Para simplificar, consideraremos que qualquer coisa com um número à frente é uma bebida <strong>e que a sua string sempre virá com o formato quantidade (em número) + tipo da bebida.</strong></li>
+    <li>O número na frente de cada bebida está no intervalo entre 1 e 9.</li>
+  </ul>
+  <p><strong>Dica:</strong> pesquise por algo similar a `get all integers inside a string js`.</p>
+  </li>
+</ol>
