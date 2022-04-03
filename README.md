@@ -6,6 +6,10 @@ JavaScript project developed by me ([Raphael Martins](https://www.linkedin.com/i
 
 We had to solve programming logic challenges by using functions.
 
+## :man_technologist: Developed Skills
+
+* Solve programming logic challenges by using JavaScript functions
+
 ## :hammer_and_wrench: Tools
 
 * JavaScript ES6+
